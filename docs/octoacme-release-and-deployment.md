@@ -10,24 +10,29 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
-- Passing CI and security scans
-- Release notes drafted
-- Rollback / mitigation plan documented
-- Smoke tests prepared
+- Passing CI and security scans (DevOps Engineer)
+- Release notes drafted (Product Manager + Project Manager)
+- Rollback / mitigation plan documented (DevOps Engineer)
+- Smoke tests prepared (QA Automation Specialist)
+- Infrastructure readiness confirmed (DevOps Engineer)
+- Design verification completed for UI changes (UX Designer)
 
 ## Deployment Checklist
-- [ ] Deployment window scheduled (if needed)
-- [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
-- [ ] Deploy to production (automated pipeline preferred)
-- [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Deployment window scheduled (if needed) - Project Manager
+- [ ] Backup or snapshot (if applicable) - DevOps Engineer
+- [ ] Deploy to staging and run smoke tests - DevOps Engineer + QA Automation Specialist
+- [ ] Deploy to production (automated pipeline preferred) - DevOps Engineer
+- [ ] Run post-deploy verifications - DevOps Engineer + QA Automation Specialist
+- [ ] Announce release to stakeholders and support - Product Manager + Project Manager
+- [ ] Monitor system metrics and error rates - DevOps Engineer
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
-  - Rollback to last known-good release if necessary
-  - Triage root cause and capture action items
+  - Trigger incident response and notify on-call (DevOps Engineer)
+  - Rollback to last known-good release if necessary (DevOps Engineer)
+  - Triage root cause and capture action items (DevOps Engineer + relevant team members)
+  - Communicate status to stakeholders (Project Manager)
+  - Document incident and learnings (Project Manager + DevOps Engineer)
 
 ## Release Notes Template
 - Release name / number:

@@ -23,6 +23,13 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Ensure all roles contribute to stakeholder updates:
+  - Project Manager: coordinates and compiles updates
+  - Product Manager: provides product vision and roadmap context
+  - DevOps Engineer: reports on infrastructure and deployment status
+  - QA Automation Specialist: shares quality metrics and test coverage
+  - UX Designer: updates on design progress and user research findings
+  - Business Analyst: communicates requirements clarity and stakeholder feedback
 
 ## Communication Templates
 Weekly Status Template:

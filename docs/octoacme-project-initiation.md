@@ -28,6 +28,14 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
+  - Project Manager:
+  - Product Manager:
+  - Developers:
+  - UX Designer (if applicable):
+  - DevOps Engineer:
+  - QA Automation Specialist:
+  - Business Analyst (if applicable):
+  - Other roles:
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
@@ -35,6 +43,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Complete [Role Clarification Checklist](templates/role-clarification-checklist.md) with team
+- [ ] Review [Role-Responsibility Matrix](templates/role-responsibility-matrix.md) for this project
 
 ## Decision Gate
 Move to planning when:

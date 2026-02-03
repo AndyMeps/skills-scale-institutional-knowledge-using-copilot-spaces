@@ -16,6 +16,14 @@ After each sprint, release, or important milestone. Also after incidents.
 - Timebox: 45–75 minutes depending on team size
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- Ensure all roles participate and share perspectives:
+  - Developers: technical challenges and code quality
+  - Product Managers: product decisions and prioritization
+  - Project Managers: process and coordination effectiveness
+  - UX Designers: design process and user research insights
+  - DevOps Engineers: deployment and infrastructure learnings
+  - QA Automation Specialists: testing process and quality improvements
+  - Business Analysts: requirements clarity and stakeholder engagement
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines
